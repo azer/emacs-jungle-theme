@@ -28,7 +28,7 @@
 (custom-theme-set-faces
  'jungle
 
- '(default ((t (:background "#1B1D1E" :foreground "#F8F8F2"))))
+ '(default ((t (:background "#111" :foreground "#F8F8F2"))))
  '(cursor ((t (:background "#F8F8F0"))))
 
  '(bold ((t (:weight bold))))
@@ -40,7 +40,7 @@
  '(elfeed-search-tag-face ((t (:foreground "#A6E22E" :weight bold))))
  '(elfeed-search-title-face ((t (:foreground "#F8F8F2"))))
  '(italic ((t (:slant italic))))
- '(region ((t (:background "#111"))))
+ '(region ((t (:background "#000"))))
  '(underline ((t (:underline t))))
  '(css-selector ((t (:foreground "#F92672"))))
  '(css-property ((t (:foreground "#66D9EF"))))
@@ -61,7 +61,7 @@
                            ':box (:line-width 1 :color "#232526")))))
  '(mode-line-mousable ((t (:foreground "#BCBCBC" :background "#000000"))))
  '(mode-line-mousable-minor-mode ((t (:foreground "#BCBCBC" :background "#000000"))))
- '(font-lock-builtin-face ((t (:foreground "#66ff66"))))
+ '(fon-builtin-tloc-t ((kface (:foreground "#66ff66"))))
  '(font-lock-comment-face ((t (:foreground "#465457"))))
  '(font-lock-comment-delimiter-face ((t (:foreground "#465457"))))
  '(font-lock-constant-face ((t (:foreground "#AE81FF"))))
@@ -76,7 +76,7 @@
  '(font-lock-type-face ((t (:foreground "#66D977"))))
  '(font-lock-variable-name-face ((t (:foreground "#cc9955"))))
  '(font-lock-warning-face ((t (:foreground "#FFFFFF" ':background "#333333"))))
- '(fringe ((t (:background "#1B1D1E" :foreground "#333"))))
+ '(fringe ((t (:background "#111111" :foreground "#333"))))
  '(highlight ((t (:foreground "#000000" :background "#C4BE89"))))
  '(hl-line ((t (:background "#212729"))))
  '(icompletep-choices ((t (:foreground "#F92672"))))
@@ -109,7 +109,7 @@
  '(markdown-comment-face ((t (:foreground "#465457"))))
  '(markdown-math-face ((t (:foreground "#AE81FF" :slant italic))))
  '(mumamo-background-chunk-major ((t (:background "#272822"))))
- '(mumamo-background-chunk-submode ((t (:background "#1B1D1E"))))
+ '(mumamo-background-chunk-submode ((t (:background "#111111"))))
  '(outline-1 ((t (:foreground "#C4BE89"))))
  '(outline-2 ((t (:foreground "#FD971F"))))
  '(outline-3 ((t (:foreground "#EF5939"))))
@@ -143,8 +143,8 @@
  '(woman-italic ((t (:foreground "#A6E22E"))))
  '(woman-unknown ((t (:foreground "#66D9EF"))))
 
- '(vertical-border ((t (:foreground "#1B1D1E"))))
- '(linum-relative-current-face ((t (:foreground "#c56ec3" :background "#1b1d1e"))))
+ '(vertical-border ((t (:foreground "#111111"))))
+ '(linum-relative-current-face ((t (:foreground "#c56ec3" :background "#111111"))))
 
  '(helm-bookmark-file ((t (:foreground "#b2b2b2"))))
  '(helm-bookmark-gnus ((t (:foreground "#c56ec3"))))
